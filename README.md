@@ -132,6 +132,8 @@ In this example we are sending notifications to a slack channel
 `<config dir>/automations.yaml`
 ```yaml
 # Get notifications when climatisation is started/stopped
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fwizzor%2Fhomeassistant-volkswagencarnet.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fwizzor%2Fhomeassistant-volkswagencarnet?ref=badge_shield)
+
 - alias: vw_carid_climatisation_on
   trigger:
    platform: state
@@ -194,3 +196,7 @@ logger:
         custom_components.switch.volkswagen_carnet: debug
         custom_components.device_tracker.volkswagen_carnet: debug
  ```
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fwizzor%2Fhomeassistant-volkswagencarnet.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fwizzor%2Fhomeassistant-volkswagencarnet?ref=badge_large)
